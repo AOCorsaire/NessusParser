@@ -9,14 +9,14 @@ XML::Twig
 # Examples
 ```
 ant@host:~/$ perl nessusv2_parse.pl 192network.nessus 
-195.11.166.197	78555	4	OpenSSL Unsupported
-195.11.166.197	93814	4	OpenSSL 1.0.1 < 1.0.1u Multiple Vulnerabilities (SWEET32)
-193.195.84.182	84729	4	Microsoft Windows Server 2003 Unsupported Installation Detection
-195.11.166.204	11057	3	TCP/IP Initial Sequence Number (ISN) Reuse Weakness
-195.11.166.203	11057	3	TCP/IP Initial Sequence Number (ISN) Reuse Weakness
-195.11.166.197	89081	3	OpenSSL 1.0.1 < 1.0.1s Multiple Vulnerabilities (DROWN)
-195.11.166.197	96451	3	Apache 2.4.x < 2.4.25 Multiple Vulnerabilities (httpoxy)
-195.59.4.90	26928	2	SSL Weak Cipher Suites Supported
+192.168.0.1	78555	4	OpenSSL Unsupported
+192.168.0.1	93814	4	OpenSSL 1.0.1 < 1.0.1u Multiple Vulnerabilities (SWEET32)
+192.168.0.3	84729	4	Microsoft Windows Server 2003 Unsupported Installation Detection
+192.168.0.3	11057	3	TCP/IP Initial Sequence Number (ISN) Reuse Weakness
+192.168.0.9	11057	3	TCP/IP Initial Sequence Number (ISN) Reuse Weakness
+192.168.0.9	89081	3	OpenSSL 1.0.1 < 1.0.1s Multiple Vulnerabilities (DROWN)
+192.168.0.9	96451	3	Apache 2.4.x < 2.4.25 Multiple Vulnerabilities (httpoxy)
+192.168.0.10	26928	2	SSL Weak Cipher Suites Supported
 ... [snip] ...
 ```
 
